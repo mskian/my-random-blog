@@ -25,8 +25,6 @@
   
     <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
-
-    <script src="/pageload-5.1.0.js" type="module"></script>
   
   </head>
   <body>
@@ -71,6 +69,7 @@
 </div>
 </footer>
 
+<script src="/flying-pages.min.js" defer></script>
 <script>
 (function() {
   var burger = document.querySelector('.burger');
@@ -81,6 +80,13 @@
       nav.classList.toggle('is-active');
   });
 })();
+window.FPConfig = {
+    delay: 0,
+    ignoreKeywords: ["\/ghost", "\/ghost\/#", "\/p\/", "\/signup\/", "\/signin\/", "\/account\/", "#signout", "\/public\/members.js", "?action=signin", "?action=signup", "#", ".png", ".jpeg", ".jpg", ".gif", ".svg"],
+    maxRPS: 3,
+    hoverDelay: 50
+};
 </script>
+
 </body>
 </html>
