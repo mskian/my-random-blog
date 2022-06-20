@@ -14,6 +14,13 @@
     <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="{{ site.title }}">
     <link rel="alternate" href="/feed.json" type="application/json" title="{{ site.title }}">
 
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="San Notes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="white-translucent">
+    <meta name="apple-mobile-web-app-title" content="San Notes">
+    <meta name="HandheldFriendly" content="True">
+
     <link rel="shortcut icon" href="/icons/Icon-48.png"/>
     <link rel="apple-touch-icon" href="/icons/Icon-48.png"/>
     <link rel="apple-touch-icon" sizes="72x72" href="/icons/Icon-72.png"/>
@@ -25,6 +32,8 @@
   
     <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
+
+    <link rel="manifest" href="/manifest.json">
   
   </head>
   <body>
@@ -86,6 +95,15 @@ window.FPConfig = {
     maxRPS: 3,
     hoverDelay: 50
 };
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function() {
+        navigator.serviceWorker.register('/sw.js').then(function(registration) {
+            console.log('ServiceWorker registration successful with scope: ', registration.scope);
+        }).catch(function(err) {
+            console.log('ServiceWorker registration failed: ', err);
+        });
+    });
+}
 </script>
 
 </body>
