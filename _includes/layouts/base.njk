@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>{{ title or site.title }}</title>
+    <meta name="description" content="{{ description or site.description }}">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css" integrity="sha512-HqxHUkJM0SYcbvxUw5P60SzdOTy/QVwA1JJrvaXJv4q7lmbDZCmZaqz01UPOaQveoxfYRv1tHozWGPMcuTBuvQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="{{ site.title }}">
+    <link rel="alternate" href="/feed.json" type="application/json" title="{{ site.title }}">
+
+    <link rel="shortcut icon" href="/icons/Icon-48.png"/>
+    <link rel="apple-touch-icon" href="/icons/Icon-48.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="/icons/Icon-72.png"/>
+    <link rel="apple-touch-icon" sizes="96x96" href="/icons/Icon-96.png"/>
+    <link rel="apple-touch-icon" sizes="144x144" href="/icons/Icon-144.png"/>
+    <link rel="apple-touch-icon" sizes="192x192" href="/icons/Icon-192.png"/>
+    <link rel="apple-touch-icon" sizes="256x256" href="/icons/Icon-256.png"/>
+    <link rel="apple-touch-icon" sizes="512x512" href="/icons/Icon-512.png"/>
+  
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+  
+  </head>
+  <body>
+
+<nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+<div class="navbar-brand">
+<a class="navbar-item" href="/"><img src="/icons/Icon-72.png" alt="Santhosh Veer"/></a>
+<a role="button" class="navbar-burger burger" aria-label="menu" data-target="navMenu">
+<span aria-hidden="true"></span>
+<span aria-hidden="true"></span>
+<span aria-hidden="true"></span>
+</a>
+</div>
+<div id="navMenu" class="navbar-menu">
+<div class="navbar-end">
+{%- for entry in search.pages("menu.visible=true", "menu.order") %}
+<a class="navbar-item" href="{{ entry.data.url }}"{% if entry.data.url == url %} aria-current="page"{% endif %}>
+ {{ entry.data.menu.title or entry.data.title }}
+</a>
+{%- endfor %}
+</div>
+</div>
+</nav>
+
+<section class="section">
+<div class="container">
+<div class="columns is-centered">
+<div class="column is-three-fifths">
+<div class="content">
+<main class="{{ bodyClass }}">
+{{ content | safe }}
+</main>
+</div>
+<div>
+</div>
+</div>
+</section>
+
+<footer class="footer">
+<div class="content has-text-centered">
+<p>Build using lume.land - Static site generator for Deno</p>
+</div>
+</footer>
+
+<script>
+(function() {
+  var burger = document.querySelector('.burger');
+  var nav = document.querySelector('#' + burger.dataset.target);
+
+  burger.addEventListener('click', function() {
+      burger.classList.toggle('is-active');
+      nav.classList.toggle('is-active');
+  });
+})();
+</script>
+</body>
+</html>
