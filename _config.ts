@@ -38,12 +38,4 @@ site
     extensions: [".jpg", ".png"],
   }));
 
-  site.process([".html"], (page) => {
-    page.document.querySelectorAll("img").forEach((img) => {
-      if (!img.hasAttribute("loading")) {
-        img.setAttribute("loading", "lazy");
-      }
-    });
-  });
-
 export default site;
