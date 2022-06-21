@@ -6,7 +6,15 @@ Build using lume.land - Static site generator for Deno
 
 > This is My Experimental Blog and Learning Deno & lume.land Static Framework
 
-Build your Blog - <https://github.com/lumeland/base-blog>
+## Servers
+
+- Cloudflare Pages - <https://notes.santhoshveer.com>
+- Deno Deploy - <https://sanblog.deno.dev>
+- Github Pages - <https://mskian.github.io/my-random-blog/>
+
+## Create your's
+
+Build your Own Blog - <https://github.com/lumeland/base-blog>
 
 ## LICENSE
 
