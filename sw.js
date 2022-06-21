@@ -31,6 +31,9 @@ if (workbox) {
     workbox.routing.registerRoute(/(.*)(?:fonts.googleapis.com|fonts.gstatic.com)/, args => {
         return cache_CF_google_fonts.handle(args);
     });
+    workbox.routing.registerRoute(/(.*)(?:fonts.bunny.net)/, args => {
+        return cache_CF_google_fonts.handle(args);
+    });
     workbox.routing.registerRoute(/(.*)\/\/(notes\.santhoshveer\.com.*)\.(?:woff|woff2|eot|ttf|mp4|mp3|jpg|jpeg|webp|svg|png|gif|ico|js|css)/, args => {
         return cache_CF.handle(args);
     });
