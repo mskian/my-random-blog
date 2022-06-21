@@ -34,4 +34,4 @@ jobs:
         with:
           build_dir: _site
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
