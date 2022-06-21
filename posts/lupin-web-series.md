@@ -1,7 +1,7 @@
 ---
 title: Lupin - Web Series
 description: Lupin Web Series Inspired by the adventures of Arsène Lupin.
-date: 2022-06-25
+date: 2021-06-25
 tags: 
   - DC
   - Netflix

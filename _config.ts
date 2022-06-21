@@ -20,7 +20,6 @@ site
   .copy("icons")
   .use(postcss())
   .use(terser())
-  .use(date())
   .use(codeHighlight())
   .use(basePath())
   .use(slugifyUrls({ alphanumeric: false }))
@@ -36,6 +35,9 @@ site
   }))
   .use(imagick({
     extensions: [".jpg", ".png"],
+  }))
+  .use(date({
+    locales: ["en-IN"],
   }));
 
   site.process([".html"], (page) => {

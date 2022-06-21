@@ -1,7 +1,7 @@
 ---
 title: Express JS - Set Up 404 Error Page
 description: Here is the Code to Setup 404 Error page in Express.js.
-date: 2022-05-27
+date: 2021-05-27
 tags: 
   - NodeJS
   - Tech
