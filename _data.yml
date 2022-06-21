@@ -1,0 +1,8 @@
+metas:
+  site: My Random Blog
+  twitter: "@santhoshveerece"
+  image: /img/sanmovies-cover.jpg
+  lang: en
+
+mergedKeys:
+  metas: object

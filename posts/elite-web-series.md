@@ -4,10 +4,6 @@ description: Elite Thriller and School Student related Story.
 date: 2022-06-25
 tags: 
   - Netflix
-metas:
-  title: "Elite - Web Series"
-  description: "Elite Thriller and School Student related Story."
-  image: "/img/sanmovies-cover.jpg"
 ---
 
 # Elite

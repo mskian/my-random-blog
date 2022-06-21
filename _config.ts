@@ -16,7 +16,7 @@ const site = lume({
 });
 
 site
-  .ignore("README.md")
+  .ignore("README.md", "CHANGELOG.md", "node_modules", "LICENSE")
   .copy("icons")
   .use(postcss())
   .use(terser())
@@ -31,9 +31,9 @@ site
   )
   .use(metas())
   .loadAssets([".css", ".png", ".jpg", ".svg", ".webp", ".gif", ".jpeg"])
-  .use(minify({
-    extensions: [".css", ".html"],
-  }))
+  //.use(minify({
+   // extensions: [".css", ".html"],
+ // }))
   .use(imagick({
     extensions: [".jpg", ".png"],
   }));

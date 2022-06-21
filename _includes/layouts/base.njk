@@ -8,6 +8,19 @@
 
     <title>{{ title or site.title }}</title>
     <meta name="description" content="{{ description or site.description }}">
+    <link rel="canonical" itemprop="url" href="{{ url | url(true) }}">
+
+    <meta property="og:title" content="{{ title or site.title }}">
+    <meta property="og:type" content="blog">
+    <meta property="og:description" content="{{ description or site.description }}">
+    <meta name="twitter:title" content="{{ title or site.title }}">
+    <meta name="twitter:description" content="{{ description or site.description }}">
+    <meta name="twitter:url" content="{{ url | url(true) }}" />
+    <meta itemprop="name" content="{{ title or site.title }}">
+    <meta itemprop="description" content="{{ description or site.description }}">
+    {% if type === 'posts' %}
+    <meta property="article:published_time" content="{{date | date("ATOM")}}">
+    {% endif %}
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css" integrity="sha512-HqxHUkJM0SYcbvxUw5P60SzdOTy/QVwA1JJrvaXJv4q7lmbDZCmZaqz01UPOaQveoxfYRv1tHozWGPMcuTBuvQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/styles.css">
@@ -20,6 +33,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="white-translucent">
     <meta name="apple-mobile-web-app-title" content="San Notes">
     <meta name="HandheldFriendly" content="True">
+    <meta name="referrer" content="no-referrer-when-downgrade" />
 
     <link rel="shortcut icon" href="/icons/Icon-48.png"/>
     <link rel="apple-touch-icon" href="/icons/Icon-48.png"/>
@@ -40,7 +54,7 @@
 
 <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
 <div class="navbar-brand">
-<a class="navbar-item" href="/"><img src="/icons/Icon-72.png" alt="Santhosh Veer"/></a>
+<a class="navbar-item" href="/"><img src="/icons/Icon-72.png" alt="{{ site.title }}" loading="lazy" /></a>
 <a role="button" class="navbar-burger burger" aria-label="menu" data-target="navMenu">
 <span aria-hidden="true"></span>
 <span aria-hidden="true"></span>

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-{%- for page in search.pages() %}
+<url>
+    <loc>{{ "/" | url(true) }}</loc>
+    <lastmod>{{ date | date("DATE") }}</lastmod>
+  </url>
+{%- for page in search.pages("type=posts") %}
   <url>
     <loc>{{ page.data.url | url(true) }}</loc>
     <lastmod>{{ page.data.date | date("DATE") }}</lastmod>

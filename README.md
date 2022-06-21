@@ -2,7 +2,7 @@
 
 Build using lume.land - Static site generator for Deno
 
-> This is Experimental Blog and Learning Deno & lume.land Static Framework
+> This is My Experimental Blog and Learning Deno & lume.land Static Framework
 
 Build your Blog - <https://github.com/lumeland/base-blog>
 
