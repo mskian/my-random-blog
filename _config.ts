@@ -31,11 +31,19 @@ site
   )
   .use(metas())
   .loadAssets([".css", ".png", ".jpg", ".svg", ".webp", ".gif", ".jpeg"])
-  //.use(minify({
-   // extensions: [".css", ".html"],
- // }))
+  .use(minify({
+     extensions: [".css", ".html"],
+  }))
   .use(imagick({
     extensions: [".jpg", ".png"],
   }));
+
+  site.process([".html"], (page) => {
+    page.document.querySelectorAll("img").forEach((img) => {
+      if (!img.hasAttribute("loading")) {
+        img.setAttribute("loading", "lazy");
+      }
+    });
+  });
 
 export default site;
