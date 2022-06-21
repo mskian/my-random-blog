@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+
+Sitemap: https://mskian.github.io/my-random-blog/sitemap.xml
