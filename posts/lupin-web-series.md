@@ -7,7 +7,7 @@ tags:
   - Netflix
 ---
 
-# Arrow
+#  Lupin - Web Series
 
 <br />
 
@@ -15,17 +15,17 @@ tags:
 
 <br />
 
-Currently Watching this Series on Netflix
+Watching this Series on Netflix - Done
 
 <br />
 
-- Season 1 - Started
-- Season 2 - Pending
-- Season 3 - Pending
-- Season 4 - Pending
-- Season 5 - Pending
-- Season 6 - Pending
-- Season 7 - Pending
-- Season 8 - Pending
+- Season 1 - Done
+- Season 2 - Done
+- Season 3 - Done
+- Season 4 - Done
+- Season 5 - Done
+- Season 6 - Done
+- Season 7 - Done
+- Season 8 - Done
 
 <br />

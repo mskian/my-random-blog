@@ -1,7 +1,7 @@
 ---
 title: Elite - Web Series
 description: Elite Thriller and School Student related Story.
-date: 2021-06-25
+date: 2022-07-27
 tags: 
   - Netflix
 ---
@@ -19,7 +19,7 @@ Currently Watching this Series on Netflix
 <br />
 
 - Season 1 - Done
-- Season 2 - Started
+- Season 2 - Done
 - Season 3 - Pending
 - Season 4 - Pending
 
