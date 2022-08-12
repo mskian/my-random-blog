@@ -10,6 +10,7 @@ import gpm from "https://deno.land/x/gpm@v0.5.0/mod.ts";
 import metas from "lume/plugins/metas.ts";
 import minify from "https://raw.githubusercontent.com/lumeland/experimental-plugins/main/minify/minify.ts";
 import imagick from "lume/plugins/imagick.ts";
+import { getLumeVersion } from "lume/core/utils.ts";
 
 const site = lume({
   location: new URL("https://notes.santhoshveer.com/"),
@@ -47,5 +48,7 @@ site
       }
     });
   });
+
+site.data("lume_version", getLumeVersion());
 
 export default site;

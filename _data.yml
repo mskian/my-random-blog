@@ -3,6 +3,7 @@ metas:
   twitter: "@santhoshveerece"
   image: /img/sanmovies-cover.jpg
   lang: en
+  generator: true
 
 mergedKeys:
   metas: object
