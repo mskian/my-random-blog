@@ -1,0 +1,69 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "My Random Blog",
+  "home_page_url": "https://mskian.github.io/my-random-blog/",
+  "feed_url": "https://mskian.github.io/my-random-blog/feed.json",
+  "description": "Just Sharing a Random things Related to tech, Movies, Web series and English and Tamil Quotes.",
+  "author": {
+    "name": "Santhosh Veer,",
+    "url": "https://notes.santhoshveer.com/about/"
+  },
+  "items": [
+    {
+      "id": "https://mskian.github.io/my-random-blog/posts/arrow-web-series/",
+      "url": "https://mskian.github.io/my-random-blog/posts/arrow-web-series/",
+      "title": "Arrow - Web Series",
+      "content_html": "<h1>Arrow</h1>\n<br />\n<p><img src=\"https://mskian.github.io/my-random-blog/img/arrow.webp\" alt=\"Arrow - Web Series\"></p>\n<br />\n<p>Currently Watching this Series on Netflix</p>\n<br />\n<ul>\n<li>Season 1 - Done</li>\n<li>Season 2 - Started</li>\n<li>Season 3 - Pending</li>\n<li>Season 4 - Pending</li>\n<li>Season 5 - Pending</li>\n<li>Season 6 - Pending</li>\n<li>Season 7 - Pending</li>\n<li>Season 8 - Pending</li>\n</ul>\n<br />",
+      "date_published": "2022-07-27T00:00:00Z"
+    },
+    {
+      "id": "https://mskian.github.io/my-random-blog/posts/elite-web-series/",
+      "url": "https://mskian.github.io/my-random-blog/posts/elite-web-series/",
+      "title": "Elite - Web Series",
+      "content_html": "<h1>Elite</h1>\n<br />\n<p><img src=\"https://mskian.github.io/my-random-blog/img/elite.webp\" alt=\"Elite - Web Series\"></p>\n<br />\n<p>Currently Watching this Series on Netflix</p>\n<br />\n<ul>\n<li>Season 1 - Done</li>\n<li>Season 2 - Done</li>\n<li>Season 3 - Pending</li>\n<li>Season 4 - Pending</li>\n</ul>\n<br />",
+      "date_published": "2022-07-27T00:00:00Z"
+    },
+    {
+      "id": "https://mskian.github.io/my-random-blog/posts/free-static-hosting/",
+      "url": "https://mskian.github.io/my-random-blog/posts/free-static-hosting/",
+      "title": "Free Static Site Hosting Providers",
+      "content_html": "<p>Here are the List of Cloud Hosting Providers who provide a Free Hosting Service Static Sites.</p>\n<ul>\n<li>Netlify</li>\n<li>Github Pages</li>\n<li>Gitlab Pages</li>\n<li>Cloudflare Pages</li>\n<li>Deno Deploy</li>\n<li>Render</li>\n<li>Railway.app</li>\n<li>Digital Ocean App Platform (Free plan with Basic Features)</li>\n<li>{{ comp.external({ link: &quot;https://bunny.net/edge-storage/&quot;, text: &quot;Bunny Storage&quot; }) | safe }} (Paid with Full CDN and Caching Support)</li>\n<li>Amazon Amplify (Free 12 months tiers for New users)</li>\n<li>Fleek</li>\n<li>Vercel</li>\n<li>Firebase</li>\n<li>Google App Engine (Some Features are Paid Before using this Service Verify the Pricing Section)</li>\n<li>Surge</li>\n<li>Heroku</li>\n<li>{{ comp.external({ link: &quot;https://begin.com/&quot;, text: &quot;begin.com&quot; }) | safe }}</li>\n<li>Gatsby Cloud</li>\n<li>{{ comp.external({ link: &quot;https://www.layer0.co/&quot;, text: &quot;layer0.co&quot; }) | safe }}</li>\n<li>Microsoft Azure Static Web Apps - {{ comp.external({ link: &quot;https://azure.microsoft.com/en-us/services/app-service/static/&quot;, text: &quot;https://azure.microsoft.com/en-us/services/app-service/static/&quot; }) | safe }}</li>\n</ul>\n<h2>Bonus</h2>\n<ul>\n<li>statically.io - (Free Files and Assets Hosting with Global CDN Support)</li>\n<li>{{ comp.external({ link: &quot;https://images.weserv.nl/&quot;, text: &quot;Images.weserv.nl&quot; }) | safe }} (Free image Cloud Hosting with CDN and Cache Support)</li>\n</ul>\n<p><strong>Note</strong></p>\n<p>Check the Service Terms and Pricing Before Register Most of the Service Provide Free plan with Limited Features Compare all service and Choose the Hosting Provider for your Static Sites.</p>",
+      "date_published": "2022-06-21T00:00:00Z"
+    },
+    {
+      "id": "https://mskian.github.io/my-random-blog/posts/lupin-web-series/",
+      "url": "https://mskian.github.io/my-random-blog/posts/lupin-web-series/",
+      "title": "Lupin - Web Series",
+      "content_html": "<h1>Lupin - Web Series</h1>\n<br />\n<p><img src=\"https://mskian.github.io/my-random-blog/img/lupin.webp\" alt=\"Arrow - Web Series\"></p>\n<br />\n<p>Watching this Series on Netflix - Done</p>\n<br />\n<ul>\n<li>Season 1 - Done</li>\n<li>Season 2 - Done</li>\n<li>Season 3 - Done</li>\n<li>Season 4 - Done</li>\n<li>Season 5 - Done</li>\n<li>Season 6 - Done</li>\n<li>Season 7 - Done</li>\n<li>Season 8 - Done</li>\n</ul>\n<br />",
+      "date_published": "2021-06-25T00:00:00Z"
+    },
+    {
+      "id": "https://mskian.github.io/my-random-blog/posts/white-collar/",
+      "url": "https://mskian.github.io/my-random-blog/posts/white-collar/",
+      "title": "White Collar",
+      "content_html": "<h1>White Collar</h1>\n<br />\n<p><img src=\"https://mskian.github.io/my-random-blog/img/whitecollar.webp\" alt=\"White Collar - Web Series\"></p>\n<br />\n<p>Currently Watching this Series on Hotstar</p>\n<br />\n<ul>\n<li>Season 1 - Started</li>\n<li>Season 2 - Pending</li>\n<li>Season 3 - Pending</li>\n<li>Season 4 - Pending</li>\n<li>Season 5 - Pending</li>\n<li>Season 6 - Pending</li>\n</ul>\n<br />",
+      "date_published": "2021-05-29T00:00:00Z"
+    },
+    {
+      "id": "https://mskian.github.io/my-random-blog/posts/the-flash-web-series/",
+      "url": "https://mskian.github.io/my-random-blog/posts/the-flash-web-series/",
+      "title": "The Flash - Web Series",
+      "content_html": "<h1>The Flash</h1>\n<br />\n<p><img src=\"https://mskian.github.io/my-random-blog/img/theflash.webp\" alt=\"The Flash - Web Series\"></p>\n<br />\n<p>Currently Watching this Series on Amazon Prime</p>\n<br />\n<ul>\n<li>Season 1 - Done</li>\n<li>Season 2 - Started</li>\n<li>Season 3 - Pending</li>\n<li>Season 4 - Pending</li>\n<li>Season 5 - Pending</li>\n<li>Season 6 - Pending</li>\n<li>Season 7 - Pending</li>\n</ul>\n<br />",
+      "date_published": "2021-05-27T00:00:00Z"
+    },
+    {
+      "id": "https://mskian.github.io/my-random-blog/posts/marvel-agents-of-shield/",
+      "url": "https://mskian.github.io/my-random-blog/posts/marvel-agents-of-shield/",
+      "title": "Marvel's Agents of S.H.I.E.L.D",
+      "content_html": "<h1>Agents of Shield</h1>\n<br />\n<p><img src=\"https://mskian.github.io/my-random-blog/img/theshield.webp\" alt=\"Agents of Shield\"></p>\n<br />\n<p>Currently Watching this Series on Hotstar</p>\n<br />\n<ul>\n<li>Season 1 - done</li>\n<li>Season 2 - done</li>\n<li>Season 3 - done</li>\n<li>Season 4 - done</li>\n<li>Season 5 - done</li>\n<li>Season 6 - Episode 3</li>\n<li>Season 7 - Not Yet</li>\n</ul>\n<br />",
+      "date_published": "2021-05-27T00:00:00Z"
+    },
+    {
+      "id": "https://mskian.github.io/my-random-blog/posts/status-post-3nw2x/",
+      "url": "https://mskian.github.io/my-random-blog/posts/status-post-3nw2x/",
+      "title": "Express JS - Set Up 404 Error Page",
+      "content_html": "<p>Here is the Code to Setup 404 Error page in Express.js.</p>\n<pre><code class=\"language-js\">app.use('/', function(req, res) {\n    res.status(404).json({\n        error: 1,\n        message: '404 Not Found'\n    });\n});\n</code></pre>",
+      "date_published": "2021-05-27T00:00:00Z"
+    }
+  ]
+}
